@@ -1,0 +1,11 @@
+server:
+  port: 3002
+  
+spring:
+  data:
+    cassandra:
+      keyspace-name: cassandra_abstractconfig
+      contact-points: localhost
+      port: 9042
+      username: cassandra
+      password: cassandra
